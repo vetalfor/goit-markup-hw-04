@@ -313,6 +313,10 @@ body {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404bbf;
+}
 /* /Team section */
 /* Section Customers */
 .section-customers {
@@ -464,6 +468,10 @@ body {
 .icon-list {
   display: flex;
   gap: 16px;
+}
+.item-social {
+  width: 40px;
+  height: 40px;
 }
 
 .icon-social-footer {
