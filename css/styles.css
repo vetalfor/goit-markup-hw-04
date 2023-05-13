@@ -180,14 +180,6 @@ body {
   margin-bottom: 8px;
   border-radius: 4px;
 }
-.about-list {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  margin-bottom: 8px;
-}
-.about-list-icon {
-}
 .about-title {
   position: absolute;
   white-space: nowrap;
