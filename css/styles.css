@@ -415,7 +415,7 @@ body {
   max-width: 1440px;
   background-color: var(--main-title-color);
 }
-.footer-container {
+.footer-left-content {
   margin-right: 120px;
 }
 .main-logo-footer {
@@ -451,5 +451,18 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
+}
+.link-social-footer:hover,
+.link-social-footer:focus {
+  background-color: #31d0aa;
+}
+
+.icon-list {
+  display: flex;
+  gap: 16px;
+}
+
+.icon-social-footer {
+  fill: #f4f4fd;
 }
 /* ===========/Footer=========== */
