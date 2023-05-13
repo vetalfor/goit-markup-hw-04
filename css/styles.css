@@ -313,7 +313,38 @@ body {
   background-color: #4d5ae5;
 }
 /* /Team section */
+/* Section Customers */
+.section-customers {
+  padding: 120px 0 120px;
+}
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+.customers-logo {
+  height: 88px;
+  width: calc((100% - 120px) / 6);
+}
+.customers-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  color: #8e8f99;
+}
+.customers-link:hover,
+.customers-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
 
+.icon-customers {
+  fill: currentColor;
+}
+/* /Section Customers */
 /* ===========/Main=========== */
 
 /* ==========Portfolio========== */
