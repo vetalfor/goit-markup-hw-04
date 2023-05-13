@@ -415,6 +415,10 @@ body {
   max-width: 1440px;
   background-color: var(--main-title-color);
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
 .footer-left-content {
   margin-right: 120px;
 }
