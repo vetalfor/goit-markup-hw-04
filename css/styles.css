@@ -432,7 +432,6 @@ body {
 .footer {
   margin: auto;
   padding: 100px 0;
-  max-width: 1440px;
   background-color: var(--main-title-color);
 }
 .footer-container {
